@@ -1,0 +1,110 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+header{
+    background-color: rgb(75, 5, 92);
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    padding-top: 10px;
+    
+}
+.heading{
+    display:flex;
+   padding-left: 40px;
+    gap: 60px;
+    margin-bottom: 15px;
+    
+    
+}
+.heading img {
+    margin-right: 400px; 
+}
+.heading h1{
+    margin-right: 300px;
+}
+.heading h2{
+    margin-right: 50px;
+}
+nav ul {
+    list-style: none; 
+    display: flex;
+    
+}
+nav ul li {
+    margin-left: 90px;
+    color: rgb(235, 223, 223);
+    padding: 3px;
+    text-align:center;
+    justify-content: center;
+}
+nav ul li a {
+text-decoration: none;
+color: beige;
+}
+.main{
+    /* border: 1px solid rgb(160, 71, 187); */
+    height: 455px;
+    background-color: rgb(160, 71, 187);
+}
+.container{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr ;
+    grid-gap: 0rem;
+    height: 455px;
+    
+}
+.items{
+    padding: 2px;
+    /* text-align: center; */
+    color: black;
+    background-color: rgb(226, 228, 228);
+    font-weight: bold;
+    
+}
+.one{
+    background-color: rgb(168, 168, 157);
+    /* border: 2px solid black; */
+    color: black;
+}
+.one h1{
+    margin: 50px 0px 0px 90px;
+}
+.form{
+    display: grid;
+    grid-template-columns: 0.5fr;
+    grid-gap: 1rem;
+    margin: 20px  0px 0px 90px;
+    /* background-color: aqua; */
+}
+#Name{
+    text-align: center;
+    padding: 10px;
+}
+#email{
+    text-align: center;
+    padding: 10px;
+}
+#message{
+    text-align: center;
+    padding: 15px 10px 10px 15px;
+}
+#submit {
+    margin: 15px 0px 0px 90px;
+    padding: 10px 20px 10px 20px;
+    color:white;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+}
+.two{
+    background-color: rgb(164, 89, 235) ;
+}
+footer{
+    height: 30px;
+    background-color: rgb(26, 24, 24);
+    color: beige;
+    text-align: center;
+   padding: 5px;
+}

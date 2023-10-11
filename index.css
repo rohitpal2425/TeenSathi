@@ -1,0 +1,111 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+header{
+    background-color: rgb(75, 5, 92);
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    padding-top: 10px;
+    /* to fixed the navbar in top */
+    /* position: fixed;  
+    top: 0;
+    overflow: hidden; */
+    /* display:flex; */
+    
+}
+/* .header .logo_container{
+    border-radius: 50%; 
+    border: solid white 2px;
+    height: 20px;
+    width: 20px;
+} */
+/* .header ,.logo_container img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%; 
+} */
+.header{
+    display:flex;
+   padding-left: 40px;
+    gap: 60px;
+    margin-bottom: 15px;
+    
+    
+}
+.header img {
+    margin-right: 400px; 
+}
+.header h1{
+    margin-right: 300px;
+}
+.header h2{
+    margin-right: 50px;
+}
+nav ul {
+    list-style: none; 
+    display: flex;
+    /* justify-content: center; */
+    
+}
+nav ul li {
+    /* border: 2px solid black; */
+    /* margin-right: 50px;  */
+    margin-left: 90px;
+    /* background-color: rgb(218, 211, 224); */
+    color: rgb(235, 223, 223);
+    padding: 3px;
+    text-align:center;
+    justify-content: center;
+    /* border-radius: 10px; */
+
+  
+
+}
+nav ul li a {
+text-decoration: none;
+color: beige;
+}
+.homepage1{
+    margin-left: 90px;
+    margin-top: 200px;
+    color: rgb(10, 10, 10);
+}
+#getstarted{
+    margin-left: 90px;
+    margin-top: 20px;
+   
+}
+#getstarted a {
+    border: 2px solid black;
+    text-decoration: none; 
+    padding: 2px;
+}
+#features {
+    display: flex;
+    margin-top: 70px;
+}   
+.extrafeatures {
+    margin:14px 50px 20px;
+    border: 1px solid black;
+    width: 30%;
+    padding: 2px;
+    margin-right: 70px;
+    text-align: center;
+
+    
+}
+
+
+body {
+    
+   background-image: url("office.jpg"), linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    width: 100%; 
+    height: 90vh; 
+
+}
